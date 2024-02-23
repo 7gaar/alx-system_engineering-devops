@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#prints Best School 10 times using until
 i=10
 
 until [ $i -le 0 ]; do
