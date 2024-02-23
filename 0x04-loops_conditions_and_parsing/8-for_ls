@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#displays: current dir in a list format with no dashes.
+
+for file in *; do
+  if [[ $file == .* ]]; then
+    continue
+  fi
+
+  name_after_dash=${file##*-}
+
+  echo "$name_after_dash"
+done
