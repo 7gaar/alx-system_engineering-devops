@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-#kills inifinty and beyond using sigkill
+# Don't stop me now
 
-pid=$(pgrep "bash ./4-to_infinty_and_beyond" -f)
-if [ -n "$pid" ]
-then
-	kill -15 "$pid"
-fi
+pgrep -f 4-to_infinity_and_beyond | xargs kill
