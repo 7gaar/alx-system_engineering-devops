@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #loops from 1 to 10, in 4 print bad luck, in 8 print good luck.
-#else prints Best School.
+#else prints Best School.	SZ
 i=1
 
 while [ $i -le 10 ]
