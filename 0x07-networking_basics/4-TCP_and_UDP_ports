@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# a bash script displays ports
+# only shows listrning sockets
+# shows PID  and name of program
+
+sudo netstat -lp
